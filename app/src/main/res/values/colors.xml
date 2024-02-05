@@ -2,5 +2,6 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="ButtonCalcular">#331AC0</color>
+    <color name="Azul">#303997</color>
+
 </resources>
