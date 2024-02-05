@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Alcool ou Gasolina</string>
+    <string name="TextTitulo">Saiba a melhor opção para o seu carro!</string>
+    <string name="ButtonCalcular">Calcular</string>
+    <string name="TextResult">Resultado</string>
+    <string name="HintAlcool">Digite o preço do álcool ex: 3.22</string>
+    <string name="HintGasolina">Digite o preço da gasolina ex: 5.02</string>
+
+</resources>
