@@ -5,6 +5,6 @@
     <string name="TextResult">Resultado</string>
     <string name="HintAlcool">Digite o preço do álcool ex: 3.22</string>
     <string name="HintGasolina">Digite o preço da gasolina ex: 5.02</string>
-
+    <string name="textCalculo">O resultado do calculo foi: </string>
 
 </resources>

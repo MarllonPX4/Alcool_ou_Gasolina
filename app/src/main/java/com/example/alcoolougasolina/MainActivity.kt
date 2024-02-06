@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
 
     private  lateinit var buttonCalcular: Button
     private  lateinit var textResult: TextView
+    private lateinit var  textCalculo: TextView
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         val precoAlcool = editAlcool.text.toString()
         val precoGasolina = editGasolina.text.toString()
 
+
         val validacao = validarCampos(precoAlcool, precoGasolina)
 
         if(validacao){
@@ -38,8 +40,11 @@ class MainActivity : AppCompatActivity() {
 
             if (resultado >= 0.7){
                 textResult.text = "Melhor utilizar Gasolina"
+                textCalculo.text = "$resultado"
+                textCalculo.text = "O resultado do calculo foi: $resultado"
             }else{
                 textResult.text = "Melhor utilizar Álcool"
+                textCalculo.text = "O resultado do calculo foi: $resultado"
             }
         }
     }
@@ -67,5 +72,6 @@ class MainActivity : AppCompatActivity() {
 
         buttonCalcular = findViewById(R.id.button_Calcular)
         textResult = findViewById(R.id.text_Result)
+        textCalculo = findViewById(R.id.textCalculo)
     }
 }
